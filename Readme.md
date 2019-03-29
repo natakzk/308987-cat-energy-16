@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Наталия Казакова](https://up.htmlacademy.ru/adaptive/16/user/308987).
-* Наставник: `Неизвестно`.
+* Наставник: [Николай Громов](https://github.com/nicothin).
 
 ---
 
