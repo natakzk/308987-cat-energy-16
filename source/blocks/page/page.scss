@@ -1,0 +1,16 @@
+.page {
+  font-family: $ff-oswald;
+  font-weight: 400;
+  font-size: 14px;
+  background-color: $color-bg;
+  color: $color-text--darken;
+
+  a {
+    text-decoration: none;
+  }
+
+  ul {
+    padding-left: 0;
+    list-style: none;
+  }
+}

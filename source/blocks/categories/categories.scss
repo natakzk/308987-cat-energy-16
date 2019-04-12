@@ -1,0 +1,25 @@
+.categories {
+  &__title {
+    font-size: 24px;
+    line-height: 37px;
+    color: $color-text--dark;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    line-height: 18px;
+    font-family: $ff-arial;
+    color: $color-text--darken;
+  }
+
+  &__item {
+    background-color: $color-bg--darken;
+  }
+
+  &__link {
+    color: $color-text--dark;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 18px;
+  }
+}

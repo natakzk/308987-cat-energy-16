@@ -1,0 +1,24 @@
+.promo {
+  &__wrapper {
+    background-color: $color-bg--bright;
+    color: $color-text--light;
+    background-image: url("../blocks/promo/index-background-mobile%401x.jpg");
+    background-repeat: no-repeat;
+  }
+
+  &__title {
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  &__slogan {
+    text-transform: uppercase;
+    line-height: 14px;
+  }
+
+  &__link {
+    color: $color-text--light;
+    line-height: 18px;
+    background-color: $color-bg--bright;
+  }
+}
