@@ -3,14 +3,14 @@ $gray:                     #f2f2f2;
 $gray-dark:                #444444;
 $gray-darken:              #111111;
 
-$color-green:              #68b738;
+$color-main:               #68b738;
 
 $font-family:              "Oswald", "Arial", sans-serif;
-$font-family--additional:  "Arial", "Tahoma", sans-serif;
+$font-family--additional:  "Arial", sans-serif;
 
-$font-size--12:            12px;
-$font-size--14:            14px;
-$font-size--16:            16px;
-$font-size--20:            20px;
-$font-size--24:            24px;
-$font-size--36:            36px;
+$font-size:                14px;
+$font-size-xs:             12px;
+$font-size-sm:             16px;
+$font-size-l:              20px;
+$font-size-xl:             24px;
+$font-size-xxl:            36px;
