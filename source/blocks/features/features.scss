@@ -1,10 +1,9 @@
 .features__title {
-  color: $color-text--dark;
-  font-size: $font-size--36;
-  line-height: 60px;
+  color: $gray-darken;
+  font-size: $font-size-xxl;
+  line-height: 1.667em;
 }
 
 .features__item {
-  line-height: 18px;
-  font-family: $ff-arial;
+  font-family: $font-family--additional;
 }

@@ -1,23 +1,23 @@
 .promo__wrapper {
-  background-color: $color-bg--bright;
-  color: $color-text--light;
+  background-color: $color-main;
+  color: $gray-light;
   background-image: url("../img/index-background-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .promo__title {
-  font-size: $font-size--36;
-  line-height: 36px;
+  font-size: $font-size-xxl;
+  line-height: 1em;
 }
 
 .promo__slogan {
   text-transform: uppercase;
-  line-height: 14px;
+  line-height: 1em;
 }
 
 .promo__link {
-  color: $color-text--light;
-  line-height: 18px;
-  background-color: $color-bg--bright;
+  color: $gray-light;
+  line-height: 1.286em;
+  background-color: $color-main;
 }

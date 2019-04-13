@@ -1,19 +1,19 @@
 .product__title {
-  font-size: 16px;
-  line-height: 20px;
-  color: $color-text--dark;
+  font-size: $font-size-sm;
+  line-height: 1.250em;
+  color: $gray-dark;
   text-transform: uppercase;
 }
 
 .product__properties {
-  font-size: 12px;
-  line-height: 16px;
-  font-family: $ff-arial;
+  font-size: $font-size-xs;
+  line-height: 1.333em;
+  font-family: $font-family--additional;
 }
 
 .product__button {
-  color: $color-text--light;
-  font-size: 16px;
-  line-height: 20px;
-  background-color: $color-bg--bright;
+  color: $gray-light;
+  font-size: $font-size-sm;
+  line-height: 1.250em;
+  background-color: $color-main;
 }

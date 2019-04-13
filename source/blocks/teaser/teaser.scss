@@ -1,23 +1,23 @@
 .teaser__link {
-  color: $color-text--darken;
+  color: $gray-dark;
 }
 
 .teaser__title {
-  font-size: 16px;
-  line-height: 20px;
+  font-size: $font-size-sm;
+  line-height: 1.250em;
   text-transform: uppercase;
-  color: $color-text--dark;
+  color: $gray-dark;
 }
 
 .teaser__info {
-  font-size: 12px;
-  line-height: 16px;
-  font-family: $ff-arial;
+  font-size: $font-size-xs;
+  line-height: 1.333em;
+  font-family: $font-family--additional;
 }
 
 .teaser__more {
-  background-color: $color-bg--darken;
-  font-size: 16px;
-  line-height: 20px;
-  color: $color-text--darken;
+  background-color: $gray;
+  font-size: $font-size-sm;
+  line-height: 1.250em;
+  color: $gray-dark;
 }

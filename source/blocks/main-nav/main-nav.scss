@@ -1,7 +1,6 @@
 .main-nav__link {
-  font-family: $ff-oswald--med;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 20px;
-  color: $color-text--dark;
+  font-size: $font-size-l;
+  line-height: 1em;
+  color: $gray-darken;
 }
