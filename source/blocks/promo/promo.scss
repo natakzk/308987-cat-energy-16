@@ -2,8 +2,9 @@
   &__wrapper {
     background-color: $color-bg--bright;
     color: $color-text--light;
-    background-image: url("../blocks/promo/index-background-mobile@1x.jpg");
+    background-image: url("../img/index-background-mobile@1x.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
   }
 
   &__title {
