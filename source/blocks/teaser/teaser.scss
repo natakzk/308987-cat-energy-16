@@ -1,25 +1,23 @@
-.teaser {
-  &__link {
-    color: $color-text--darken;
-  }
+.teaser__link {
+  color: $color-text--darken;
+}
 
-  &__title {
-    font-size: 16px;
-    line-height: 20px;
-    text-transform: uppercase;
-    color: $color-text--dark;
-  }
+.teaser__title {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: $color-text--dark;
+}
 
-  &__info {
-    font-size: 12px;
-    line-height: 16px;
-    font-family: $ff-arial;
-  }
+.teaser__info {
+  font-size: 12px;
+  line-height: 16px;
+  font-family: $ff-arial;
+}
 
-  &__more {
-    background-color: $color-bg--darken;
-    font-size: 16px;
-    line-height: 20px;
-    color: $color-text--darken;
-  }
+.teaser__more {
+  background-color: $color-bg--darken;
+  font-size: 16px;
+  line-height: 20px;
+  color: $color-text--darken;
 }

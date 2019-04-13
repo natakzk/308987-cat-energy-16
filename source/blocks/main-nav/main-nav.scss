@@ -1,9 +1,7 @@
-.main-nav {
-  &__link {
-    font-family: $ff-oswald--med;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 20px;
-    color: $color-text--dark;
-  }
+.main-nav__link {
+  font-family: $ff-oswald--med;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: $color-text--dark;
 }

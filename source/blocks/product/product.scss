@@ -1,21 +1,19 @@
-.product {
-  &__title {
-    font-size: 16px;
-    line-height: 20px;
-    color: $color-text--dark;
-    text-transform: uppercase;
-  }
+.product__title {
+  font-size: 16px;
+  line-height: 20px;
+  color: $color-text--dark;
+  text-transform: uppercase;
+}
 
-  &__properties {
-    font-size: 12px;
-    line-height: 16px;
-    font-family: $ff-arial;
-  }
+.product__properties {
+  font-size: 12px;
+  line-height: 16px;
+  font-family: $ff-arial;
+}
 
-  &__button {
-    color: $color-text--light;
-    font-size: 16px;
-    line-height: 20px;
-    background-color: $color-bg--bright;
-  }
+.product__button {
+  color: $color-text--light;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: $color-bg--bright;
 }

@@ -1,25 +1,23 @@
-.promo {
-  &__wrapper {
-    background-color: $color-bg--bright;
-    color: $color-text--light;
-    background-image: url("../img/index-background-mobile@1x.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.promo__wrapper {
+  background-color: $color-bg--bright;
+  color: $color-text--light;
+  background-image: url("../img/index-background-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  &__title {
-    font-size: 36px;
-    line-height: 36px;
-  }
+.promo__title {
+  font-size: 36px;
+  line-height: 36px;
+}
 
-  &__slogan {
-    text-transform: uppercase;
-    line-height: 14px;
-  }
+.promo__slogan {
+  text-transform: uppercase;
+  line-height: 14px;
+}
 
-  &__link {
-    color: $color-text--light;
-    line-height: 18px;
-    background-color: $color-bg--bright;
-  }
+.promo__link {
+  color: $color-text--light;
+  line-height: 18px;
+  background-color: $color-bg--bright;
 }

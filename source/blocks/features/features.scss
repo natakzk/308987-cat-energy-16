@@ -1,12 +1,10 @@
-.features {
-  &__title {
-    color: $color-text--dark;
-    font-size: 36px;
-    line-height: 60px;
-  }
+.features__title {
+  color: $color-text--dark;
+  font-size: 36px;
+  line-height: 60px;
+}
 
-  &__item {
-    line-height: 18px;
-    font-family: $ff-arial;
-  }
+.features__item {
+  line-height: 18px;
+  font-family: $ff-arial;
 }
