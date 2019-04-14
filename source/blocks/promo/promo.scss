@@ -1,12 +1,21 @@
 .promo__wrapper {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  background-color: $color-main;
+}
+
+.promo__text-wrapper {
   background-color: $color-main;
   color: $gray-light;
   background-image: url("../img/index-background-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: center;
 }
 
 .promo__title {
+  padding-top: 28px;
   font-size: $font-size-xxl;
   line-height: 1em;
 }
