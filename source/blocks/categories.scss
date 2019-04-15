@@ -1,0 +1,22 @@
+.categories__title {
+  font-size: $font-size-xl;
+  line-height: 1.542em;
+  color: $gray-darken;
+  text-transform: uppercase;
+}
+
+.categories__text {
+  font-family: $font-family-additional;
+  color: $gray-dark;
+}
+
+.categories__item {
+  background-color: $gray;
+}
+
+.categories__link {
+  color: $gray-darken;
+  text-transform: uppercase;
+  font-size: $font-size-sm;
+  line-height: 1.125em;
+}

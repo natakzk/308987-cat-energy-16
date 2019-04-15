@@ -1,0 +1,19 @@
+.product__title {
+  font-size: $font-size-sm;
+  line-height: 1.250em;
+  color: $gray-dark;
+  text-transform: uppercase;
+}
+
+.product__properties {
+  font-size: $font-size-xs;
+  line-height: 1.333em;
+  font-family: $font-family-additional;
+}
+
+.product__button {
+  color: $gray-light;
+  font-size: $font-size-sm;
+  line-height: 1.250em;
+  background-color: $color-main;
+}

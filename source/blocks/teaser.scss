@@ -1,0 +1,23 @@
+.teaser__link {
+  color: $gray-dark;
+}
+
+.teaser__title {
+  font-size: $font-size-sm;
+  line-height: 1.250em;
+  text-transform: uppercase;
+  color: $gray-dark;
+}
+
+.teaser__info {
+  font-size: $font-size-xs;
+  line-height: 1.333em;
+  font-family: $font-family-additional;
+}
+
+.teaser__more {
+  background-color: $gray;
+  font-size: $font-size-sm;
+  line-height: 1.250em;
+  color: $gray-dark;
+}
