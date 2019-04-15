@@ -1,10 +1,15 @@
 .page {
-  font-family: $font-family;
-  font-weight: 400;
-  font-size: $font-size;
-  line-height: 1.286em;
-  background-color: $gray-light;
-  color: $gray-dark;
+
+  body {
+    min-width: 320px;
+    margin: auto;
+    color: $gray-dark;
+    font-family: $font-family;
+    font-weight: 400;
+    font-size: $font-size;
+    line-height: $line-height;
+    background-color: $gray-light;
+  }
 
   a {
     text-decoration: none;
