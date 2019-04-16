@@ -1,5 +1,11 @@
 .catalog__title {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin: 0 auto;
+  text-align: center;
   color: $gray-darken;
   line-height: 1.667em;
   font-size: $font-size-xxl;
+  border-top: $border;
+  border-bottom: $border;
 }

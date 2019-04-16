@@ -1,15 +1,27 @@
+.teaser {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 84px;
+  padding-bottom: 25px;
+  text-align: center;
+  border-bottom: $border;
+}
+
 .teaser__link {
   color: $gray-dark;
 }
 
 .teaser__title {
+  margin-top: 0;
   font-size: $font-size-sm;
-  line-height: 1.250em;
+  line-height: 1.25em;
   text-transform: uppercase;
   color: $gray-dark;
 }
 
 .teaser__info {
+  margin-top: 0;
+  margin-bottom: 25px;
   font-size: $font-size-xs;
   line-height: 1.333em;
   font-family: $font-family-additional;

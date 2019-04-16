@@ -1,6 +1,9 @@
 .page-header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-left: 20px;
   margin-right: 20px;
-  padding-top: 11px;
-  padding-bottom: 16px;
+  padding-top: 12px;
+  padding-bottom: 13px;
 }
