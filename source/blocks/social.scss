@@ -1,5 +1,6 @@
 .social__list {
+  @include list-reset();
   display: flex;
-  flex-basis: 126px;
   justify-content: space-between;
+  min-width: 126px;
 }

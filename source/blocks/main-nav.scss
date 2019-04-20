@@ -4,3 +4,20 @@
   line-height: 1em;
   color: $gray-darken;
 }
+
+.main-nav__list {
+  @include list-reset();
+}
+
+.main-nav__toggle {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+@media (min-width: $tablet-width) {
+  .main-nav__list {
+    display: flex;
+  }
+}
+

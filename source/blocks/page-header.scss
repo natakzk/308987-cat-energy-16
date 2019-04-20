@@ -7,3 +7,29 @@
   padding-top: 12px;
   padding-bottom: 13px;
 }
+
+@media (min-width: $tablet-width) {
+  .page-header__wrapper {
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 24px;
+  }
+
+  .main-nav__toggle {
+    display: none;
+  }
+}
+
+
+@media (min-width: $desktop-width) {
+  .page-header {
+    width: 1440px;
+    margin: auto;
+  }
+
+  .page-header__wrapper {
+    margin-left: 110px;
+    margin-right: 70px;
+    padding-top: 53px;
+  }
+}

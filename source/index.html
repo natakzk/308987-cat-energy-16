@@ -2,15 +2,21 @@
 <html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>HTML Academy: Кэт энерджи</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
+  <body class="index">
 
     <header class="page-header">
       <div class="page-header__wrapper">
         <a class="logo">
-          <img class="logo__img" src="img/logo-mobile.svg" width="191" height="38" alt="Cat energy">
+          <picture>
+            <source media="(min-width: 1440px)" srcset="img/logo-desktop.svg">
+            <source media="(min-width: 768px)" srcset="img/logo-tablet.svg">
+            <img class="logo__img" src="img/logo-mobile.svg" width="191" height="38" alt="Cat energy">
+          </picture>
         </a>
         <nav class="main-nav">
           <button class="main-nav__toggle" type="button">
@@ -100,7 +106,7 @@
           </ul>
         </div>
         <div class="page-footer__copyright copyright">
-          <p class="copyright__text">HTML Academy</p>
+          <a class="copyright__text" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
           <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
         </div>
       </div>
