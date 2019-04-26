@@ -54,13 +54,13 @@
 
   .promo__title {
     width: 420px;
-    padding-top: 43px;
+    padding-top: 55px;
     font-size: $font-size-xxxl;
     line-height: 1em;
   }
 
   .promo__slogan {
-    margin-top: 40px;
+    margin-top: 41px;
     margin-bottom: 47px;
     font-size: $font-size-l;
     line-height: 1em;
@@ -92,7 +92,7 @@
 
 @media (min-width: $desktop-width) {
   .promo {
-    padding-top: 50px;
+    padding-top: 51px;
     padding-left: 190px;
     padding-bottom: 266px;
   }
