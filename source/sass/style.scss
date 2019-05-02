@@ -1,6 +1,10 @@
+@import "mixins.scss";
 @import "variables.scss";
 @import "fonts.scss";
+@import "scaffolding.scss";
+@import "../../node_modules/normalize-scss/sass/_normalize.scss";
 @import "../blocks/page-header.scss";
+@import "../blocks/burger.scss";
 @import "../blocks/page-footer.scss";
 @import "../blocks/button.scss";
 @import "../blocks/catalog.scss";
@@ -15,4 +19,3 @@
 @import "../blocks/social.scss";
 @import "../blocks/teaser.scss";
 @import "../blocks/visually-hidden.scss";
-@import "../blocks/page.scss";

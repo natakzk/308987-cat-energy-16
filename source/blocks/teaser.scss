@@ -1,15 +1,28 @@
+.teaser {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 77px;
+  padding-bottom: 25px;
+  text-align: center;
+  border-bottom: $border;
+}
+
 .teaser__link {
   color: $gray-dark;
 }
 
 .teaser__title {
+  margin-top: 0;
   font-size: $font-size-sm;
-  line-height: 1.250em;
+  font-weight: 400;
+  line-height: 1.25em;
   text-transform: uppercase;
   color: $gray-dark;
 }
 
 .teaser__info {
+  margin-top: 0;
+  margin-bottom: 25px;
   font-size: $font-size-xs;
   line-height: 1.333em;
   font-family: $font-family-additional;
@@ -18,6 +31,68 @@
 .teaser__more {
   background-color: $gray;
   font-size: $font-size-sm;
-  line-height: 1.250em;
+  line-height: 1.25em;
   color: $gray-dark;
 }
+
+@media (min-width: $tablet-width) {
+  .teaser {
+    min-height: 421px;
+    border: $border;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-bottom: 41px;
+    margin-bottom: 140px;
+    background-color: none;
+  }
+
+  .teaser__title {
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: $font-size-l;
+    line-height: 1em;
+    color: $gray-darken;
+  }
+
+  .teaser__info {
+    padding-top: 6px;
+    margin-bottom: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: $font-size-sm;
+  }
+
+  .teaser__more {
+    margin-top: 80px;
+    padding: 10px 0;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .teaser {
+    padding-bottom: 37px;
+  }
+
+  .teaser__title {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .teaser__info {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .teaser__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 38px;
+  }
+
+  .teaser__more {
+    margin-top: 83px;
+  }
+}
+

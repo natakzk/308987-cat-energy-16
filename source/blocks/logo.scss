@@ -1,0 +1,22 @@
+.logo {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@media (min-width: $tablet-width) {
+  .logo {
+    margin: 0;
+  }
+
+  .logo__img {
+    width: 173px;
+    height: 58px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .logo__img {
+    width: 202px;
+    height: 59px;
+  }
+}
